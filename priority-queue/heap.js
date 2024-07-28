@@ -27,7 +27,7 @@ class MinHeap {
             ) {
             this.swap(index, parentIdx);
             index = parentIdx;
-            parentIdx = Math.floor((index-1) /2 );
+            parentI dx = Math.floor((index-1) /2 );
         }
     }
 }
